@@ -1,0 +1,83 @@
+{
+  "Groups": [
+    {
+      "Name": "popIn",
+      "DisplayName": "Pop-In",
+      "Elements": [
+        {
+          "Name": "multiplier",
+          "Description": [
+            "Global multiplier for Pop-In that includes most objects.",
+          ],
+          "DisplayName": "Global Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 100.0,
+          "DefaultValue": 2.0
+        },
+		{
+          "Name": "enemyMultiplier",
+          "Description": [
+            "Enemy multiplier for pop-in (enemies are not affected by the Global Multiplier)",
+          ],
+          "DisplayName": "Enemy Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 100.0,
+          "DefaultValue": 1.0
+        },
+		{
+          "Name": "collectableMultiplier",
+          "Description": [
+            "Collectable multiplier for pop-in (collectables are not affected by the Global Multiplier)",
+          ],
+          "DisplayName": "Collectable Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 100.0,
+          "DefaultValue": 5.0
+        },
+      ]
+    },
+	{
+      "Name": "objectRemoval",
+      "DisplayName": "Remove Objects",
+      "Elements": [
+        {
+          "Name": "camTrigger",
+          "Description": [
+            "Removes (most) Camera Triggers from the open zones.",
+          ],
+          "DisplayName": "Remove Camera Triggers",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "dashPanels",
+          "Description": [
+            "Removes Dash Panels and Rail Boosters from the open zones.",
+          ],
+          "DisplayName": "Remove Dash Panels",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+		{
+          "Name": "2D",
+          "Description": [
+            "Removes all 2D dimensions from the open zones, letting you play as much of the game in 3D as possible.",
+          ],
+          "DisplayName": "Remove 2D Dimensions",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+      ]
+    }
+  ],
+  "IniFile": "mod.ini"
+}
