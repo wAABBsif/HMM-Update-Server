@@ -7,7 +7,7 @@
         {
           "Name": "multiplier",
           "Description": [
-            "Global multiplier for Pop-In that includes most objects",
+            "Global multiplier for Pop-In that includes most objects.",
           ],
           "DisplayName": "Global Multiplier",
           "Type": "float",
@@ -18,7 +18,7 @@
 		{
           "Name": "enemyMultiplier",
           "Description": [
-            "Enemy multiplier for pop-in (enemies are not affected by the Global Multiplier)",
+            "Enemy multiplier for pop-in (enemies are not affected by the Global Multiplier).",
           ],
           "DisplayName": "Enemy Multiplier",
           "Type": "float",
@@ -29,7 +29,7 @@
 		{
           "Name": "collectibleMultiplier",
           "Description": [
-            "Collectible multiplier for pop-in (collectibles are not affected by the Global Multiplier)",
+            "Collectible multiplier for pop-in (collectibles are not affected by the Global Multiplier).",
           ],
           "DisplayName": "Collectible Multiplier",
           "Type": "float",
@@ -40,7 +40,7 @@
 		{
           "Name": "stabilityMode",
           "Description": [
-            "Limits the total range of lower-range objects so that the game doesn't crash when loading an island, it's highly recommended to keep this on",
+            "Limits the total range of lower-range objects so that the game doesn't crash when loading an island, but some objects will visibly show less range than before. It's highly recommended to keep this on.",
           ],
           "DisplayName": "Stable Mode",
           "Type": "bool",
@@ -57,7 +57,7 @@
         {
           "Name": "camTrigger",
           "Description": [
-            "Removes (most) Camera Triggers from the open zones",
+            "Removes (most) Camera Triggers from the open zones.",
           ],
           "DisplayName": "Remove Camera Triggers",
           "Type": "bool",
@@ -68,7 +68,7 @@
         {
           "Name": "dashPanels",
           "Description": [
-            "Removes Dash Panels and Rail Boosters from the open zones",
+            "Removes Dash Panels and Rail Boosters from the open zones.",
           ],
           "DisplayName": "Remove Dash Panels",
           "Type": "bool",
@@ -79,7 +79,7 @@
 		{
           "Name": "2D",
           "Description": [
-            "Removes all 2D dimensions from the open zones, letting you play as much of the game in 3D as possible",
+            "Removes all 2D dimensions from the open zones, letting you play as much of the game in 3D as possible.",
           ],
           "DisplayName": "Remove 2D Dimensions",
           "Type": "bool",
@@ -96,7 +96,7 @@
         {
           "Name": "springHoming",
           "Description": [
-            "Forces springs to be targeted by homing attacks, this does not affect classic springs",
+            "Forces springs to be targeted by homing attacks, this does not affect classic springs.",
           ],
           "DisplayName": "Force Spring Homing",
           "Type": "bool",
