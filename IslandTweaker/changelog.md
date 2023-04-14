@@ -1,3 +1,6 @@
+## Island Tweaker v1.1.3
+- Once again fixed the Pop-In Multiplier not applying in certain scenarios and optimized it
+
 ## Island Tweaker v1.1.2
 - Pop-In Multiplier not applying in certain scenarios fixed
 - Modified stability mode to exclude some objects from being limited
