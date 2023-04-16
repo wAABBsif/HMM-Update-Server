@@ -1,3 +1,6 @@
+## Island Tweaker v1.1.4
+- Replaced Wall Jump panels with Fans, mileage may vary due to technical limitations, but they should help
+
 ## Island Tweaker v1.1.3
 - Once again fixed the Pop-In Multiplier not applying in certain scenarios and optimized it
 
