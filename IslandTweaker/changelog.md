@@ -1,3 +1,6 @@
+## Island Tweaker v1.1.5
+- Hopefully fixed crashes during the Starfall event
+
 ## Island Tweaker v1.1.4
 - Replaced Wall Jump panels with Fans, mileage may vary due to technical limitations, but they should help
 
