@@ -1,3 +1,7 @@
+## Island Tweaker v1.2
+- Added the "Disable Night Challenges" option to force all challenges to be accessible at all times.
+- Restructured a lot of code.
+
 ## Island Tweaker v1.1.5
 - Hopefully fixed crashes during the Starfall event
 

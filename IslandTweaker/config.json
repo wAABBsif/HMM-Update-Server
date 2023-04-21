@@ -105,6 +105,23 @@
           "DefaultValue": false
         },
       ]
+    },
+    {
+      "Name": "challengeTweaks",
+      "DisplayName": "Challenge Tweaks",
+      "Elements": [
+        {
+          "Name": "nightChallengeRemoval",
+          "Description": [
+            "Disables Night Challenges and forces them to be playable at any time.",
+          ],
+          "DisplayName": "Disable Night Challenges",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+      ]
     }
   ],
   "IniFile": "tweaks.ini"
