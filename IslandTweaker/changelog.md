@@ -1,3 +1,6 @@
+## Island Tweaker v1.2.1
+- Fixed the consistency issues with the Pop-In Multiplier
+
 ## Island Tweaker v1.2
 - Added the "Disable Night Challenges" option to force all challenges to be accessible at all times.
 - Restructured a lot of code.
