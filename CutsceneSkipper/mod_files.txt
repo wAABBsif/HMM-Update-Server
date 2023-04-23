@@ -1,0 +1,2 @@
+add CutsceneSkipper.dll
+add mod.ini
