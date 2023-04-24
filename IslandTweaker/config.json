@@ -104,6 +104,17 @@
           "MaxValue": null,
           "DefaultValue": false
         },
+        {
+          "Name": "refuseFreeze",
+          "Description": [
+            "In most cases, don't freeze the player and let them keep control.",
+          ],
+          "DisplayName": "Don't Freeze Player",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
       ]
     },
     {

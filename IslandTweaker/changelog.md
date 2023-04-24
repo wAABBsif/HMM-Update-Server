@@ -1,3 +1,7 @@
+## Island Tweaker v1.2.2
+- Added the "Don't Freeze Player" option
+- Optimized and increased stability of "Remove Camera Triggers" option.
+
 ## Island Tweaker v1.2.1
 - Fixed the consistency issues with the Pop-In Multiplier
 
