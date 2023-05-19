@@ -76,7 +76,7 @@
           "MaxValue": null,
           "DefaultValue": false
         },
-		{
+		    {
           "Name": "2D",
           "Description": [
             "Removes all 2D dimensions from the open zones, letting you play as much of the game in 3D as possible.",
@@ -86,7 +86,7 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": false
-        },
+        }
       ]
     },
 	{
@@ -110,6 +110,17 @@
             "In most cases, don't freeze the player and let them keep control.",
           ],
           "DisplayName": "Don't Freeze Player",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "noHoldMonologue",
+          "Description": [
+            "Doesn't stop the player when Sonic does a monologue.",
+          ],
+          "DisplayName": "Don't Hold on Monologues",
           "Type": "bool",
           "MinValue": null,
           "MaxValue": null,

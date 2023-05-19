@@ -1,3 +1,7 @@
+## Island Tweaker v1.3
+- Added the "Don't Hold on Monologues" option so that you don't stop the moment you hit a monologue volume in the open world.
+- Restructured and fixed the code for checking if it's safe to apply all the tweaks so it should work better with mods.
+
 ## Island Tweaker v1.2.2
 - Added the "Don't Freeze Player" option
 - Optimized and increased stability of "Remove Camera Triggers" option.
