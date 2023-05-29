@@ -1,3 +1,6 @@
+## Island Tweaker v1.3.1
+- Added Signature Caching for faster loading
+
 ## Island Tweaker v1.3
 - Added the "Don't Hold on Monologues" option so that you don't stop the moment you hit a monologue volume in the open world.
 - Restructured and fixed the code for checking if it's safe to apply all the tweaks so it should work better with mods.
