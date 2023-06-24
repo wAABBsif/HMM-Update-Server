@@ -1,3 +1,6 @@
+## Island Tweaker v1.3.3
+- Improved 1.3.0 Support
+
 ## Island Tweaker v1.3.2
 - 1.3.0 Support
 
