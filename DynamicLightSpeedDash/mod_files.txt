@@ -1,0 +1,3 @@
+add config.json
+add DynamicLightSpeedDash.dll
+add mod.ini

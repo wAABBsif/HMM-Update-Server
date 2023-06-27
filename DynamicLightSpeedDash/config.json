@@ -1,0 +1,33 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Main",
+      "Elements": [
+        {
+          "Name": "minimumBrake",
+          "Description": [
+            "Brake force when Sonic is moving.",
+          ],
+          "DisplayName": "Minimum Brake Force",
+          "Type": "float",
+          "MinValue": 0.0,
+		  "MaxValue": null,
+          "DefaultValue": 0.0
+        },
+		{
+          "Name": "maximumBrake",
+          "Description": [
+            "Brake force when Sonic is not moving.",
+          ],
+          "DisplayName": "Maximum Brake Force",
+          "Type": "float",
+          "MinValue": 0.0,
+		  "MaxValue": null,
+          "DefaultValue": 1000.0
+        },
+	],
+    }
+  ],
+  "IniFile": "mod.ini"
+}
