@@ -15,7 +15,7 @@
           "MaxValue": 100.0,
           "DefaultValue": 2.0
         },
-		{
+		    {
           "Name": "enemyMultiplier",
           "Description": [
             "Enemy multiplier for pop-in (enemies are not affected by the Global Multiplier).",
@@ -26,18 +26,7 @@
           "MaxValue": 100.0,
           "DefaultValue": 1.0
         },
-		{
-          "Name": "collectibleMultiplier",
-          "Description": [
-            "Collectible multiplier for pop-in (collectibles are not affected by the Global Multiplier).",
-          ],
-          "DisplayName": "Collectible Multiplier",
-          "Type": "float",
-          "MinValue": 0.0,
-          "MaxValue": 100.0,
-          "DefaultValue": 5.0
-        },
-		{
+        {
           "Name": "stabilityMode",
           "Description": [
             "Limits the total range of lower-range objects so that the game doesn't crash when loading an island, but some objects will visibly show less range than before. It's highly recommended to keep this on.",

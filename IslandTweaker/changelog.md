@@ -1,3 +1,6 @@
+## Island Tweaker v1.4
+- Limited Pop-In Increase to certain objects to avoid issues from weird ones.
+
 ## Island Tweaker v1.3.3
 - Improved 1.3.0 Support
 
