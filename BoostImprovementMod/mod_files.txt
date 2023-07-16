@@ -1,0 +1,3 @@
+add BoostImprovementMod.dll
+add mod.ini
+add config.json

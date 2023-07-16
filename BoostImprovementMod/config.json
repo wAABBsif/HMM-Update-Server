@@ -1,0 +1,320 @@
+{
+  "Groups": [
+    {
+      "Name": "input",
+      "DisplayName": "Input",
+      "Elements": [
+        {
+          "Name": "analogBoost",
+          "Description": [
+            "Holding the trigger down farther will make the boost faster."
+          ],
+          "DisplayName": "Analog Boost",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "analogBoostDrain",
+          "Description": [
+            "Using the Analog Boost also affects how fast it drains."
+          ],
+          "DisplayName": "Analog Boost Drain",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "rumble",
+          "Description": [
+            "Adds a subtle rumble to using the boost."
+          ],
+          "DisplayName": "Rumble",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "adaptiveTriggers",
+          "Description": [
+            "Utilizes the Dualsense's Adaptive Triggers for boosting."
+          ],
+          "DisplayName": "Adaptive Triggers",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "lightbar",
+          "Description": [
+            "Utilizes the Dualsense's Lightbars for multiple actions."
+          ],
+          "DisplayName": "Lightbar",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        }
+      ]
+    },
+    {
+      "Name": "islands",
+      "DisplayName": "Islands",
+      "Elements": [
+        {
+          "Name": "modifiedSpeedCap",
+          "Description": [
+            "Modifies the normal speed cap by increasing the top speed and decreasing the deceleration when going above top speed."
+          ],
+          "DisplayName": "Modified Speed Cap",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "accelerationMultiplier",
+          "Description": [
+            "Increases the acceleration when boosting. It is completely unaffected in vanilla, so set it to 1 for a vanilla experience."
+          ],
+          "DisplayName": "Acceleration Multiplier",
+          "Type": "float",
+          "MinValue": 0.1,
+          "MaxValue": 10.0,
+          "DefaultValue": 2.0
+        },
+        {
+          "Name": "trickBoostGain",
+          "Description": [
+            "How much boost you gain from tricks"
+          ],
+          "DisplayName": "Trick Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 5.0
+        },
+        {
+          "Name": "startWithMinimumBoost",
+          "Description": [
+            "Spawn in with no boost."
+          ],
+          "DisplayName": "Start with Minimum Boost",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "enabled",
+          "Description": [
+            "Enable the gameplay changes configured with the below options, the above options are not affected."
+          ],
+          "DisplayName": "Enabled",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "boostDrain",
+          "Description": [
+            "How fast the regular boost gauge drains"
+          ],
+          "DisplayName": "Boost Drain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 25.0
+        },
+        {
+          "Name": "additionalBoostDrain",
+          "Description": [
+            "How fast the additional boost rings drain"
+          ],
+          "DisplayName": "Additional Boost Drain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 100.0
+        },
+        {
+          "Name": "naturalBoostGain",
+          "Description": [
+            "How fast you gain boost naturally"
+          ],
+          "DisplayName": "Natural Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 2.0
+        },
+        {
+          "Name": "additionalNaturalBoostGain",
+          "Description": [
+            "How fast you gain boost for the additional boost rings."
+          ],
+          "DisplayName": "Additional Natural Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 0.0
+        },
+        {
+          "Name": "ringBoostGain",
+          "Description": [
+            "How much boost you gain from rings"
+          ],
+          "DisplayName": "Ring Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "combatBoostGain",
+          "Description": [
+            "How much boost you gain from combat"
+          ],
+          "DisplayName": "Combat Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 1.5
+        },
+        {
+          "Name": "reigniteRatio",
+          "Description": [
+            "What percentage of boost gauge you need to reignite the boost."
+          ],
+          "DisplayName": "Reignite Ratio",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 15
+        },
+      ]
+    },
+    {
+      "Name": "cyber",
+      "DisplayName": "Cyber Space",
+      "Elements": [
+        {
+          "Name": "modifiedSpeedCap",
+          "Description": [
+            "Modifies the normal speed cap by increasing the top speed and decreasing the deceleration when going above top speed."
+          ],
+          "DisplayName": "Modified Speed Cap",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "accelerationMultiplier",
+          "Description": [
+            "Increases the acceleration when boosting. It is completely unaffected in vanilla, so set it to 1 for a vanilla experience."
+          ],
+          "DisplayName": "Acceleration Multiplier",
+          "Type": "float",
+          "MinValue": 0.1,
+          "MaxValue": 10.0,
+          "DefaultValue": 2.0
+        },
+        {
+          "Name": "trickBoostGain",
+          "Description": [
+            "How much boost you gain from tricks"
+          ],
+          "DisplayName": "Trick Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 5.0
+        },
+        {
+          "Name": "startWithMinimumBoost",
+          "Description": [
+            "Spawn in with no boost."
+          ],
+          "DisplayName": "Start with Minimum Boost",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "enabled",
+          "Description": [
+            "Enable the gameplay changes configured with the below options."
+          ],
+          "DisplayName": "Enabled",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "boostDrain",
+          "Description": [
+            "How fast the regular boost gauge drains"
+          ],
+          "DisplayName": "Boost Drain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 25.0
+        },
+        {
+          "Name": "naturalBoostGain",
+          "Description": [
+            "How fast you gain boost naturally"
+          ],
+          "DisplayName": "Natural Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 2.0
+        },
+        {
+          "Name": "ringBoostGain",
+          "Description": [
+            "How much boost you gain from rings"
+          ],
+          "DisplayName": "Ring Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "combatBoostGain",
+          "Description": [
+            "How much boost you gain from combat"
+          ],
+          "DisplayName": "Combat Boost Gain",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 15
+        },
+        {
+          "Name": "reigniteRatio",
+          "Description": [
+            "What percentage of boost gauge you need to reignite the boost."
+          ],
+          "DisplayName": "Reignite Ratio",
+          "Type": "float",
+          "MinValue": 0,
+          "MaxValue": 500,
+          "DefaultValue": 15
+        },
+      ]
+    }
+  ],
+  "IniFile": "config.ini"
+}
