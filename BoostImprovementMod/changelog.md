@@ -1,6 +1,5 @@
-## Cutscene Skipper v1.0.1
-- Update 1.3.0 support
-- Signature Caching support
+## Boost Improvement Mod v1.0.1
+- Fix Spin Boost Jump slowing you down
 
-## Cutscene Skipper v1.0
+## Boost Improvement Mod v1.0
 - Initial Release
