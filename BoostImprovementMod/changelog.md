@@ -1,3 +1,6 @@
+## Boost Improvement Mod v1.2.1
+- Fixed boost cap
+
 ## Boost Improvement Mod v1.2
 - Fixed deceleration when boosting and made it compatible with physics mods
 
