@@ -1,3 +1,13 @@
+## Island Tweaker v1.5
+- Pulled a Sega and decided to eradicate the previous update's change from existence
+- Reduced the hard, internal pop-in cap to prevent UI and ring-related issues.
+- Limited the pop-in multiplier because higher values become redundant with the hard cap.
+- Simplified the pop-in configuration
+- Added an experimental "Remove Dash Rings" option.
+- Added an "Unlock Chest Keys" option
+- Added a "Portal Gear Count" option
+- Added an option to shorten the End of Island Puzzles.
+
 ## Island Tweaker v1.4
 - Limited Pop-In Increase to certain objects to avoid issues from weird ones.
 

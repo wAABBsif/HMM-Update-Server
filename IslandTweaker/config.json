@@ -7,36 +7,14 @@
         {
           "Name": "multiplier",
           "Description": [
-            "Global multiplier for Pop-In that includes most objects.",
+            "Global multiplier for Pop-In that includes most objects. This is capped to 6 so that things don't break. There is also an internal cap that limits the maximum range of most objects to prevent major bugs.",
           ],
           "DisplayName": "Global Multiplier",
           "Type": "float",
           "MinValue": 0.0,
-          "MaxValue": 100.0,
-          "DefaultValue": 2.0
-        },
-		    {
-          "Name": "enemyMultiplier",
-          "Description": [
-            "Enemy multiplier for pop-in (enemies are not affected by the Global Multiplier).",
-          ],
-          "DisplayName": "Enemy Multiplier",
-          "Type": "float",
-          "MinValue": 0.0,
-          "MaxValue": 100.0,
-          "DefaultValue": 1.0
-        },
-        {
-          "Name": "stabilityMode",
-          "Description": [
-            "Limits the total range of lower-range objects so that the game doesn't crash when loading an island, but some objects will visibly show less range than before. It's highly recommended to keep this on.",
-          ],
-          "DisplayName": "Stable Mode",
-          "Type": "bool",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": true
-        },
+          "MaxValue": 6.0,
+          "DefaultValue": 2.5
+        }
       ]
     },
 	{
@@ -75,7 +53,18 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": false
-        }
+        },
+        {
+          "Name": "dashRings",
+          "Description": [
+            "Removes all dash rings from the open zone. This may make the game unbeatable.",
+          ],
+          "DisplayName": "Remove Dash Rings (Experimental)",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
       ]
     },
 	{
@@ -115,6 +104,28 @@
           "MaxValue": null,
           "DefaultValue": false
         },
+        {
+          "Name": "gearCount",
+          "Description": [
+            "How many gears Cyber Space portals require.",
+          ],
+          "DisplayName": "Portal Gear Count",
+          "Type": "GearType",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": -1
+        },
+        {
+          "Name": "showCyloopCollectibles",
+          "Description": [
+            "Unlocks vault keys hidden inside chests without needing to Cyloop them. Gears and Memory Tokens can still be found in chests.",
+          ],
+          "DisplayName": "Unlock Chest Keys",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
       ]
     },
     {
@@ -132,8 +143,44 @@
           "MaxValue": null,
           "DefaultValue": false
         },
+        {
+          "Name": "shortenedPuzzles",
+          "Description": [
+            "Shortens the light, crane, and pinball puzzles at the end of the first three islands.",
+          ],
+          "DisplayName": "Shortened End of Island Puzzles",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
       ]
     }
   ],
+  "Enums": {
+    "GearType": [
+      {
+        "DisplayName": "1 Gear",
+        "Value": 1,
+        "Description": [
+          "1 Gear is required per portal."
+        ]
+      },
+      {
+        "DisplayName": "No Gears",
+        "Value": 0,
+        "Description": [
+          "No gears are required to enter portals"
+        ]
+      },
+      {
+        "DisplayName": "Default",
+        "Value": -1,
+        "Description": [
+          "This uses the default gear values"
+        ]
+      }
+    ]
+  },
   "IniFile": "tweaks.ini"
 }
