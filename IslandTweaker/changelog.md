@@ -1,3 +1,6 @@
+## Island Tweaker v1.5.1
+- Update 3 Compatibility
+
 ## Island Tweaker v1.5
 - Pulled a Sega and decided to eradicate the previous update's change from existence
 - Reduced the hard, internal pop-in cap to prevent UI and ring-related issues.
