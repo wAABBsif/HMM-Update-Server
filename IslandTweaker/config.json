@@ -14,6 +14,17 @@
           "MinValue": 0.0,
           "MaxValue": 6.0,
           "DefaultValue": 2.5
+        },
+        {
+          "Name": "stableMode",
+          "Description": [
+            "Only increases the range of certain objects to stay under the Object Limit",
+          ],
+          "DisplayName": "Stablility Mode",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
         }
       ]
     },
@@ -64,7 +75,7 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": false
-        },
+        }
       ]
     },
 	{
@@ -105,17 +116,6 @@
           "DefaultValue": false
         },
         {
-          "Name": "gearCount",
-          "Description": [
-            "How many gears Cyber Space portals require.",
-          ],
-          "DisplayName": "Portal Gear Count",
-          "Type": "GearType",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": -1
-        },
-        {
           "Name": "showCyloopCollectibles",
           "Description": [
             "Unlocks vault keys hidden inside chests without needing to Cyloop them. Gears and Memory Tokens can still be found in chests.",
@@ -154,6 +154,122 @@
           "MaxValue": null,
           "DefaultValue": true
         },
+      ]
+    },
+    {
+      "Name": "progressionTweaks",
+      "DisplayName": "Progression Tweaks",
+      "Elements": [
+        {
+          "Name": "gearCount",
+          "Description": [
+            "How many gears Cyber Space portals require.",
+          ],
+          "DisplayName": "Portal Gear Count",
+          "Type": "GearType",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": -1
+        },
+        {
+          "Name": "chestTokenNumber",
+          "Description": [
+            "How many Memory Tokens can be found in chests.",
+          ],
+          "DisplayName": "Chest Memory Token Count",
+          "Type": "int",
+          "MinValue": 0,
+          "MaxValue": 50,
+          "DefaultValue": 8
+        },
+        {
+          "Name": "w1r03MemoryTokenMultiplier",
+          "Description": [
+            "Multiplies all Memory Token requirements on Kronos",
+          ],
+          "DisplayName": "Kronos Memory Token Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 5.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w2r01MemoryTokenMultiplier",
+          "Description": [
+            "Multiplies all Memory Token requirements on Ares",
+          ],
+          "DisplayName": "Ares Memory Token Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 5.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w3r01MemoryTokenMultiplier",
+          "Description": [
+            "Multiplies all Memory Token requirements on Chaos",
+          ],
+          "DisplayName": "Chaos Memory Token Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 5.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w1r04MemoryTokenMultiplier",
+          "Description": [
+            "Multiplies all Memory Token requirements on Ouranos",
+          ],
+          "DisplayName": "Ouranos Memory Token Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 5.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w1r03KeyRequirementMultiplier",
+          "Description": [
+            "Multiplies all Vault Key requirements on Kronos",
+          ],
+          "DisplayName": "Kronos Vault Key Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 3.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w2r01KeyRequirementMultiplier",
+          "Description": [
+            "Multiplies all Vault Key requirements on Ares",
+          ],
+          "DisplayName": "Ares Vault Key Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 3.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w3r01KeyRequirementMultiplier",
+          "Description": [
+            "Multiplies all Vault Key requirements on Chaos",
+          ],
+          "DisplayName": "Chaos Vault Key Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 3.0,
+          "DefaultValue": 1.0
+        },
+        {
+          "Name": "w1r04KeyRequirementMultiplier",
+          "Description": [
+            "Multiplies all Vault Key requirements on Ouranos",
+          ],
+          "DisplayName": "Ouranos Vault Key Requirement Multiplier",
+          "Type": "float",
+          "MinValue": 0.0,
+          "MaxValue": 3.0,
+          "DefaultValue": 1.0
+        }
       ]
     }
   ],

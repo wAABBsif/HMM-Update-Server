@@ -1,3 +1,7 @@
+## Island Tweaker v1.6
+- Stability Mode fro Pop-In
+- Added "Progression Tweaks" settings
+
 ## Island Tweaker v1.5.1
 - Update 3 Compatibility
 
