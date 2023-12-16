@@ -1,5 +1,12 @@
+## Island Tweaker v1.7
+- 1.4.1 Support
+- Renamed "Stability Mode" to "Limited Mode."
+- Added a few objects to Limited Mode.
+- Added a way to manually adjust the range limit.
+- Massively increased the maximum value for the Range Multiplier.
+
 ## Island Tweaker v1.6
-- Stability Mode fro Pop-In
+- Stability Mode for Pop-In
 - Added "Progression Tweaks" settings
 
 ## Island Tweaker v1.5.1

@@ -7,24 +7,37 @@
         {
           "Name": "multiplier",
           "Description": [
-            "Global multiplier for Pop-In that includes most objects. This is capped to 6 so that things don't break. There is also an internal cap that limits the maximum range of most objects to prevent major bugs.",
+            "Global multiplier for Pop-In that includes most objects."
           ],
           "DisplayName": "Global Multiplier",
           "Type": "float",
           "MinValue": 0.0,
-          "MaxValue": 6.0,
-          "DefaultValue": 2.5
+          "MaxValue": 100.0,
+          "DefaultValue": 3.0
         },
         {
           "Name": "stableMode",
           "Description": [
-            "Only increases the range of certain objects to stay under the Object Limit",
+            "Only increases the range of certain objects to stay under the Object Limit\n",
+            "Enable this if you have stability issues."
           ],
-          "DisplayName": "Stablility Mode",
+          "DisplayName": "Limited Mode",
           "Type": "bool",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": true
+          "DefaultValue": false
+        },
+        {
+          "Name": "maxRange",
+          "Description": [
+            "This can be increased to increase the maximum object distance limit.\n",
+            "Decrease this if you have stability issues."
+          ],
+          "DisplayName": "Maximum Object Range",
+          "Type": "float",
+          "MinValue": 100.0,
+          "MaxValue": 10000.0,
+          "DefaultValue": 1000.0
         }
       ]
     },
