@@ -1,3 +1,10 @@
+## Island Tweaker v1.8
+- Added a custom "Range.ini" file to allow complete customization on the pop-in multipliers of different objects.
+- Added "Infinite Culling Range" option.
+- Lowered max values for "Object Multiplier" and "Maximum Object Range."
+- Modified "Limited Mode" to give you a slight pop-in increase even with excluded objects.
+- No, the weird glitches cannot be fixed, lower "Object Multiplier", turn on "Limited Mode," and/or lower "Maximum Object Range."
+
 ## Island Tweaker v1.7
 - 1.4.1 Support
 - Renamed "Stability Mode" to "Limited Mode."

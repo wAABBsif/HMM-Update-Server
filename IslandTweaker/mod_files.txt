@@ -2,3 +2,4 @@ add config.json
 add IslandTweaker.dll
 add mod.ini
 add tweaks.ini
+add Range.ini

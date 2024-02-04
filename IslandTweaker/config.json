@@ -7,18 +7,18 @@
         {
           "Name": "multiplier",
           "Description": [
-            "Global multiplier for Pop-In that includes most objects."
+            "Global multiplier for Pop-In that includes most objects. This is not a rendering multiplier, it affects when objects do and don't physically exist. High multipliers may cause issues."
           ],
-          "DisplayName": "Global Multiplier",
+          "DisplayName": "Object Multiplier",
           "Type": "float",
           "MinValue": 0.0,
-          "MaxValue": 100.0,
+          "MaxValue": 20.0,
           "DefaultValue": 3.0
         },
         {
           "Name": "stableMode",
           "Description": [
-            "Only increases the range of certain objects to stay under the Object Limit\n",
+            "Only partially increases range on particular objects.\n",
             "Enable this if you have stability issues."
           ],
           "DisplayName": "Limited Mode",
@@ -28,15 +28,26 @@
           "DefaultValue": false
         },
         {
+          "Name": "infiniteCullingRange",
+          "Description": [
+            "Increases the render distance on objects. This does not affect the same values as \"Global Multiplier.\"\nLeave this on if you're unsure."
+          ],
+          "DisplayName": "Infinite Rendering Distance",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
           "Name": "maxRange",
           "Description": [
             "This can be increased to increase the maximum object distance limit.\n",
             "Decrease this if you have stability issues."
           ],
           "DisplayName": "Maximum Object Range",
-          "Type": "float",
+          "Type": "int",
           "MinValue": 100.0,
-          "MaxValue": 10000.0,
+          "MaxValue": 3000.0,
           "DefaultValue": 1000.0
         }
       ]
@@ -70,9 +81,9 @@
 		    {
           "Name": "2D",
           "Description": [
-            "Removes all 2D dimensions from the open zones, letting you play as much of the game in 3D as possible.",
+            "Removes all 2D dimensions from the open zones, letting you play as much of the game in 3D as possible. This may make certain sections very difficult.",
           ],
-          "DisplayName": "Remove 2D Dimensions",
+          "DisplayName": "Remove 2D Dimensions (Unstable)",
           "Type": "bool",
           "MinValue": null,
           "MaxValue": null,
@@ -83,7 +94,7 @@
           "Description": [
             "Removes all dash rings from the open zone. This may make the game unbeatable.",
           ],
-          "DisplayName": "Remove Dash Rings (Experimental)",
+          "DisplayName": "Remove Dash Rings (Unstable)",
           "Type": "bool",
           "MinValue": null,
           "MaxValue": null,
@@ -98,7 +109,7 @@
         {
           "Name": "springHoming",
           "Description": [
-            "Forces springs to be targeted by homing attacks, this does not affect classic springs.",
+            "Forces springs to be targeted by homing attacks, this does not affect classic springs. This might result in a more frustrating experience with \"Bridge the Gap.\"",
           ],
           "DisplayName": "Force Spring Homing",
           "Type": "bool",
@@ -109,9 +120,9 @@
         {
           "Name": "refuseFreeze",
           "Description": [
-            "In most cases, don't freeze the player and let them keep control.",
+            "In most cases, don't freeze the player and let them keep control. This may break certain sequences.",
           ],
-          "DisplayName": "Don't Freeze Player",
+          "DisplayName": "Don't Freeze Player (Unstable)",
           "Type": "bool",
           "MinValue": null,
           "MaxValue": null,
