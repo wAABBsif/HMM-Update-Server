@@ -1,3 +1,6 @@
+## Island Tweaker v1.8.1
+- Restored old Limited Mode due to issues
+
 ## Island Tweaker v1.8
 - Added a custom "Range.ini" file to allow complete customization on the pop-in multipliers of different objects.
 - Added "Infinite Culling Range" option.
