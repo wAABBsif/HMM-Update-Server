@@ -1,0 +1,14 @@
+Patch "Don't Stop Timer using Chaos Control" in "Gameplay" by "wAABBsif"
+{
+    WriteNop
+    (
+        /* v1.1.0.0: 0x140176567 */
+        ScanSignature
+        (
+            "\xF6\x47\x00\x00\x0F\x85\x00\x00\x00\x00\x40\x84\xF6",
+            "xx??xx????xxx"
+        ),
+        
+        0x1C
+    );
+}
