@@ -1,3 +1,6 @@
+## Island Tweaker v1.8.2
+- 1.4.2 Support
+
 ## Island Tweaker v1.8.1
 - Restored old Limited Mode due to issues
 
